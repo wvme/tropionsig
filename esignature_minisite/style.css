@@ -1,0 +1,51 @@
+html, body { text-align:center; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0 0 80px 0; }
+
+.slope {
+  background: #151825;
+  height: 60px;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 0);
+  overflow: visible !important;
+}
+
+#header { background: #151825; width: 100%; margin: 0 auto; color: white; padding: 30px 0 0px; }
+
+.header-elements { width: 80%; height: 100px; margin: 0 auto; }
+
+.header-img { margin-bottom: 30px; display: block; }
+
+.inputs {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.inputs p { max-width: 420px; margin: 24px auto; }
+.inputs h1 { font-weight: lighter; }
+.input { margin: 12px; display: inline-block; }
+
+input[type=text] {
+  padding:5px 10px;
+  border:1px solid rgba(0,0,0,0.1);
+  border-radius: 2px;
+  background: none;
+  color: #151825;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+input[type=text]:focus {
+  border: 1px solid #61CBEA;
+}
+
+fieldset { max-width: 600px; margin: 60px auto 30px; padding: 30px; border: 1px solid rgba(0,0,0,0.1); text-align:left;}
+
+legend { font-size: 10px; text-transform: uppercase; letter-spacing: 2px; padding: 0 20px; }
+
+fieldset table { margin: 0 auto; }
+
+button { border-radius: 4px; padding: 12px 24px; border: none; background: #151825; color: white; font-size: 12px; font-weight: lighter; text-transform: uppercase; letter-spacing: 2px; transition: all 0.03s linear; }
+
+button:hover { background:#596cff; color: white; }
+
+.copied {
+  background: #39A030;
+}
